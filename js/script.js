@@ -10,24 +10,24 @@ function Initialize()
 {
     divResult = document.querySelector('#divResult')
     arNumbers =  [1,2,5,6,8,9,10];
-    PrintArrayInfo(arNumbers);
-    AddItemToArray(arNumbers,'test');
-    RemoveLastItemFromArray(arNumbers);
-    RemoveFirstElementFromArray(arNumbers);
-    let strArray = ParseArrayToString(arNumbers);
-    let arrayStr = ParseStringToarray(strArray);
-    let arJoined = JoinTwoArrays(arNumbers,arrayStr);
-    SortArray(arNumbers);
-    AddFirstValueToArray(arNumbers,35);
-    CheckIfNumbers(arNumbers);
-    GetNumbersGreaterThan(arNumbers,10);
-    FindInArray(arNumbers,10);
-    FindIndexOfValue(arNumbers,10);
-    IndexOfValue(arNumbers,10);
-    FindIndexOfValue(arNumbers,10);
-    LastIndexOfValue(arNumbers,10);
-    CalculateSumWithReduce(arNumbers);
-    CheckIfValueInArray(arNumbers,10);
-    CheckIfSomeValueInArray(arNumbers,2);
-    MultiplyArrayElementsWithRandomNumber(arNumbers);
+    printArrayInfo(arNumbers);
+    addItemToArray(arNumbers,'test');
+    removeLastItemFromArray(arNumbers);
+    removeFirstElementFromArray(arNumbers);
+    let strArray = parseArrayToString(arNumbers);
+    let arrayStr = parseStringToarray(strArray);
+    let arJoined = joinTwoArrays(arNumbers,arrayStr);
+    sortArray(arNumbers);
+    addFirstValueToArray(arNumbers,35);
+    checkIfNumbers(arNumbers);
+    getNumbersGreaterThan(arNumbers,10);
+    findInArray(arNumbers,10);
+    findIndexOfValue(arNumbers,10);
+    indexOfValue(arNumbers,10);
+    findIndexOfValue(arNumbers,10);
+    lastIndexOfValue(arNumbers,10);
+    calculateSumWithReduce(arNumbers);
+    checkIfValueInArray(arNumbers,10);
+    checkIfSomeValueInArray(arNumbers,2);
+    multiplyArrayElementsWithRandomNumber(arNumbers);
 }

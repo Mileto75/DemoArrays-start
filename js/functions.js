@@ -1,106 +1,88 @@
 //push
-function AddItemToArray(arrayVar,value)
-{
+function addItemToArray(arrayVar,value) {
     
 }
 //pop
-function RemoveLastItemFromArray(arrayVar)
-{
+function removeLastItemFromArray(arrayVar) {
     
 }
 //shift
-function RemoveFirstElementFromArray(arrayVar)
-{
+function removeFirstElementFromArray(arrayVar) {
     
 }
 //join
-function ParseArrayToString(arrayVar)
-{
+function parseArrayToString(arrayVar) {
     
 }
 //split
-function ParseStringToarray(strValues)
-{
+function parseStringToarray(strValues) {
     
 }
 
 //concat
-function JoinTwoArrays(arrayVar1,arrayVar2)
-{
+function joinTwoArrays(arrayVar1,arrayVar2) {
     
 }
 //sort
-function SortArray()
+function sortArray()
 {
     
 }
 //unshift
-function AddFirstValueToArray(arrayVar,value)
-{
+function addFirstValueToArray(arrayVar,value) {
     
 }
 
 
 //Higher order functions
 //every()
-function CheckIfNumbers(arrayVar)
-{
+function checkIfNumbers(arrayVar) {
    
 }
 //filter()
-function GetNumbersGreaterThan(arValues,value)
-{
+function getNumbersGreaterThan(arValues,value) {
     
 }
 
 //find()
-function FindInArray(arValues,value)
-{
+function findInArray(arValues,value) {
    
 }
 
 //findindex
-function FindIndexOfValue(arValues,value)
-{
+function findIndexOfValue(arValues,value) {
     
 }
 //indexof
-function IndexOfValue(arValues,value)
-{
+function indexOfValue(arValues,value) {
    
 }
 
 //lastIndexOf
-function LastIndexOfValue(arValues,value)
-{
+function lastIndexOfValue(arValues,value) {
 
 }
 
 //includes
-function CheckIfValueInArray(arValues,value)
-{
+function checkIfValueInArray(arValues,value) {
    
 }
 //some
-function CheckIfSomeValueInArray(arValues,value)
-{
+function checkIfSomeValueInArray(arValues,value) {
     
 }
 
 //reduce
-function CalculateSumWithReduce(arValues)
-{
+function calculateSumWithReduce(arValues) {
     
 }
 
 //map
-function MultiplyArrayElementsWithRandomNumber(arValues)
-{
+function multiplyArrayElementsWithRandomNumber(arValues) {
     
 }
 //foreach
-function PrintArrayInfo(arrayVar)
-{
+function printArrayInfo(arrayVar) {
     divResult.innerHTML += '<br>';
     //classic 
     // for(let i=0;i<arrayVar.length;i++)
@@ -114,8 +96,7 @@ function PrintArrayInfo(arrayVar)
     
 }
 
-function AddOutputToDiv(output)
-{
+function addOutputToDiv(output) {
     divResult.innerHTML += `<br>${output}`;
 }
 
